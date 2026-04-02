@@ -48,7 +48,7 @@ You can validate by:
 
 ## Train
 
-To train the VDG-Diffusinon, run this command:
+To train the DVG-Diffusinon, run this command:
 
 `python train/train_ddpm.py`
 
