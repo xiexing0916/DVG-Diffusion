@@ -1,0 +1,37 @@
+vqgan_ckpt: ""  # CT_VQGAN
+# E:/workspace/AX2CT/addnoise_diffusion/checkpoints/vq_gan/LIDC/version_4/checkpoints/latest_checkpoint-v2.ckpt
+# Have to be derived from VQ-GAN Latent space dimensions
+vqgan_ckpt_bp: ""  # VPGE_0_90_VQGAN.ckpt
+vqgan_ckpt_bp025: ""  # VPGE_45_VQGAN.ckpt
+coarse_model: ""  # NewView_Coarse_Model.pt
+input_img_size: 128
+diffusion_img_size: 32
+diffusion_depth_size: 32
+diffusion_num_channels: 8
+dim_mults: [1, 2, 4, 8]
+out_dim: 8
+results_folder: ../checkpoints/ddpm
+results_folder_postfix: ''
+load_milestone: ""  # DVG_Diffusion.pt
+
+
+batch_size: 2
+test_batch_size: 1
+num_workers: 4
+logger: wandb
+objective: pred_x0
+save_and_sample_every: 4000
+val_every: 20000
+denoising_fn: old_Unet3D
+train_lr: 2e-4
+timesteps: 100 # number of steps
+pose_timesteps: 1
+sampling_timesteps: 250 # number of sampling timesteps (using ddim for faster inference [see citation for ddim paper])
+loss_type: l2 # L1 or L2
+train_num_steps: 500000 # total training steps
+gradient_accumulate_every: 1 # gradient accumulation steps
+ema_decay: 0.995 # exponential moving average decay
+amp: False # turn on mixed precision
+num_sample_rows: 1
+gpus: 0
+

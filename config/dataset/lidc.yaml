@@ -1,0 +1,4 @@
+name: LIDC
+root_dir: ../../datasets/LIDC/LIDC-HDF5-256
+image_channels: 1
+augmentation: True
