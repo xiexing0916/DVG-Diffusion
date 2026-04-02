@@ -5,7 +5,7 @@
 <div align="center">
 
 [![IEEE_TIP](https://img.shields.io/badge/%20IEEE_TIP_Paper-DVG_Diffusion-b31b1b.svg)](https://ieeexplore.ieee.org/document/11363161)&nbsp;
-
+<a href="[[https://huggingface.co/xing0916/ARRA-Adapt-MIMIC-7B](https://huggingface.co/xing0916/DVG-Diffusion)](https://huggingface.co/xing0916/DVG-Diffusion)"><img alt="Model" src="https://img.shields.io/badge/🤗Hugging Face-Model-FFFDF5"></a>
 </div>
 
 ![framework.png](./assets/framework.png)
