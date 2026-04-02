@@ -1,7 +1,5 @@
 # DVG-Diffusion: Dual-View Guided Diffusion Model for CT Reconstruction from X-Rays
 
-## Framework
-
 <div align="center">
 
 [![IEEE_TIP](https://img.shields.io/badge/%20IEEE_TIP_Paper-DVG_Diffusion-b31b1b.svg)](https://ieeexplore.ieee.org/document/11363161)&nbsp;
@@ -9,6 +7,9 @@
 
 </a>
 </div>
+
+
+## Framework
 
 ![framework.png](./assets/framework.png)
 
