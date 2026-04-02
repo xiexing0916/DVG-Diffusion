@@ -44,7 +44,13 @@ Also, you need to compile drr_projector following
 
 ## Eval
 
-You can validate by:
+1. Download pretrained models from:
+
+| Model        | View | Huggingface                                                                              |
+| ------------ | --- | ---------------------------------------------------------------------------------------- |
+| DVG-Diffusion   | Biplanar  | [xing0916/DVG-Diffusion](https://huggingface.co/xing0916/DVG-Diffusion)       |
+
+2. You can validate by:
 
 `python train/val_ddpm.py`
 
